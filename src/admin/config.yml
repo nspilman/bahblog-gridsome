@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: nspilman/natespilmandotcom
+  repo: nspilman/thebahblog-gridsome
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
