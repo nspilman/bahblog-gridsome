@@ -64,6 +64,12 @@ export default {
 </script>
 
 <style scoped>
+
+header{
+width:100%;
+left:unset;
+}
+
 #homepage-content{
   margin-top:2em;
 }
@@ -83,6 +89,10 @@ export default {
     max-width: 90vw;
     height:auto;
   }
+}
+
+.post{
+  padding:1em;
 }
 
 

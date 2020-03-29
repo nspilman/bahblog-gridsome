@@ -58,7 +58,7 @@ body {
 }
 
 #content{
-  flex-direction: column;
-  max-width: 100vw;
+  padding-right:3em;
+
 }
 </style>

@@ -33,9 +33,7 @@ export default {};
     margin-top:2em;
     margin-right: 0em !important;
     background-color:white; 
-    padding-left: 1em;
     padding-top:1em;
-    margin:2em 0;
 }
 
 #intro{
