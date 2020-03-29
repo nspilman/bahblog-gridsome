@@ -34,6 +34,7 @@ export default {};
     margin-right: 0em !important;
     background-color:white; 
     padding-top:1em;
+    padding-right: 1em;
 }
 
 #intro{
