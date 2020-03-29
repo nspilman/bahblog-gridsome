@@ -14,7 +14,7 @@
           <span class="published">author: {{post.node.author}}</span>
         </div>
       </header>
-      <a :href="post.node.path" class="image featured">
+      <a :href="post.node.path" class="image-featured">
         <g-image :src="post.node.image" />
       </a>
       <p v-html="post.node.excerpt"></p>
@@ -65,11 +65,25 @@ export default {
 
 <style scoped>
 #homepage-content{
-  margin-top:4em;
+  margin-top:2em;
 }
 
-.post-image {
-  max-width: 60vw;
-  max-height: 50vh;
+.image-featured{
+  display:flex;
+  justify-content: center;
 }
+
+.g-image {
+      max-height:660px;
+      width: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .g-image {
+    max-width: 90vw;
+    height:auto;
+  }
+}
+
+
 </style>

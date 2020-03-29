@@ -82,9 +82,7 @@ export default {
 };
 </script>
 <style>
-#post-main{
-    margin-top: 4em;
-}
+
 img{
     width:100%;
     height:auto;
