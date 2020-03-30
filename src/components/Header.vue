@@ -1,7 +1,7 @@
 <template>
   <header id="header">
     <h1>
-      <a href="/">Nate and Claire's Travel Blog</a>
+      <a href="/">The Bahblog - Claire and Nate </a>
     </h1>
     <nav class="main"></nav>
   </header>

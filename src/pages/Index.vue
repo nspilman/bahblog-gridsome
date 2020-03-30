@@ -1,99 +1,71 @@
 <template>
   <Layout>
-    <section id="homepage-content">
-    <article v-for="post in $page.posts.edges" :key="post.id" class="post">
-      <header>
-        <div class="title">
-          <h2>
-            <a :href="post.node.path">{{post.node.title}}</a>
-          </h2>
-          <p>{{post.node.description}}</p>
+    <article id="home" class="panel special">
+      <div class="image">
+        <img :src="mainImage" alt data-position="center center" id="main-image" />
+      </div>
+      <div class="content">
+        <div class="inner">
+          <nav id="nav">
+            <ul class="actions vertical special spinY">
+              <li>
+                <g-link class="button" to="/travel">Travel</g-link>
+              </li>
+              <li>
+                <g-link class="button" to="/travel">Recipes</g-link>
+              </li>
+              <li>
+                <g-link class="button" to="/travel">Life Updates</g-link>
+              </li>
+            </ul>
+          </nav>
+          <ul class="icons">
+            <li>
+              <a href="https://github.com/nspilman" target="_blank" class="icon fa-github">
+                <span class="label">GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/natespilman/"
+                target="_blank"
+                class="icon fa-instagram"
+              >
+                <span class="label">Instagram</span>
+              </a>
+            </li>
+            <br />
+            <li>
+              <span class="label">nate.spilman@gmail.com</span>
+            </li>
+          </ul>
         </div>
-        <div class="meta">
-          <time class="published" :datetime="post.node.date">{{formattedDateString(post.node.date)}}</time>
-          <span class="published">author: {{post.node.author}}</span>
-        </div>
-      </header>
-      <a :href="post.node.path" class="image-featured">
-        <g-image :src="post.node.image" />
-      </a>
-      <p v-html="post.node.excerpt"></p>
-      <footer>
-        <ul class="actions">
-          <li>
-            <a :href="post.node.path" class="button big">Continue Reading</a>
-          </li>
-        </ul>
-      </footer>
+      </div>
     </article>
-    </section>
   </Layout>
 </template>
 
-<page-query>
-query Posts {
-  posts: allPost {
-    edges {
-      node {
-        id
-        title
-        author
-        date
-        description
-        path
-        excerpt
-        image
-    }
-  }
-  }
-  }
-  </page-query>
-
 <script>
-import formatDate from "../utils/formattedDateString"
+import mainImage from "../img/theBabes.jpg";
 export default {
   metaInfo: {
-    title: "Home"
+    title: "The Bahblog | Claire and Nate's family blog"
   },
-  methods:{
-    formattedDateString(string){
-        return formatDate(string)
-    }
-}
-}
+  data() {
+    return {
+      mainImage
+    };
+  }
+};
 </script>
 
 <style scoped>
-
-header{
-width:100%;
-left:unset;
+img {
+  padding: 3em;
+  background-color: white;
 }
 
-#homepage-content{
-  margin-top:2em;
+.home-links a {
+  margin-right: 1rem;
 }
-
-.image-featured{
-  display:flex;
-  justify-content: center;
-}
-
-.g-image {
-      max-height:660px;
-      width: auto;
-}
-
-@media only screen and (max-width: 600px) {
-  .g-image {
-    max-width: 90vw;
-    height:auto;
-  }
-}
-
-.post{
-  padding:1em;
-}
-
-
 </style>

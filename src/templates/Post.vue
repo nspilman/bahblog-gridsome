@@ -53,7 +53,7 @@
 </template>
 
 <page-query>
-query Post ($path:String!){
+query TravelPost ($path:String!){
 post:post(path:$path)
        {
         title

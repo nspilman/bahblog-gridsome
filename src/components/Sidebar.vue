@@ -5,17 +5,27 @@
         <img src="../img/theBabes.jpg" alt />
       </a>
       <header>
-        <h2>NATE AND CLAIRE'S TRAVEL BLOG</h2>
+        <h2>The Bahblog </h2>
+        <h3> Nate & Claire </h3>
       </header>
     </section>
 
     <section class="blurb">
-      <h2>About</h2>
-      <p>This is Nate and Claire's travel blog!</p>
+             <nav id="nav">
+            <ul class="actions vertical special spinY">
+              <li>
+                <g-link class="button" to="/travel">Travel</g-link>
+              </li>
+              <li>
+                <g-link class="button" to="/recipes">Recipes</g-link>
+              </li>
+              <li>
+                <g-link class="button" to="/updates">Life Updates</g-link>
+              </li>
+            </ul>
+          </nav>
     </section>
-      <section class="tags">
-      <g-link to="/tags"><h2>Tags</h2></g-link>
-    </section>
+
     <!-- <Mailing /> -->
 
     <section id="footer">
