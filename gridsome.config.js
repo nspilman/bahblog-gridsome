@@ -28,37 +28,37 @@ module.exports = {
       }
     },
     {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: './blog/recipes/*.md',
-        typeName: 'RecipePosts',
-        remark: {
-        },
-        refs: {
-          tags:{
-            typeName: 'RecipeTag',
-            route: 'recipes/tag/:id',
-            create: true
-          }
-        }
-      }
-    },
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: './blog/updates/*.md',
-        typeName: 'UpdatePosts',
-        remark: {
-        },
-        refs: {
-          tags:{
-            typeName: 'UpdateTag',
-            route: 'updates/tag/:id',
-            create: true
-          }
-        }
-      }
-    },
+    //   use: '@gridsome/source-filesystem',
+    //   options: {
+    //     path: './blog/recipes/*.md',
+    //     typeName: 'RecipePosts',
+    //     remark: {
+    //     },
+    //     refs: {
+    //       tags:{
+    //         typeName: 'RecipeTag',
+    //         route: 'recipes/tag/:id',
+    //         create: true
+    //       }
+    //     }
+    //   }
+    // },
+    // {
+    //   use: '@gridsome/source-filesystem',
+    //   options: {
+    //     path: './blog/updates/*.md',
+    //     typeName: 'UpdatePosts',
+    //     remark: {
+    //     },
+    //     refs: {
+    //       tags:{
+    //         typeName: 'UpdateTag',
+    //         route: 'updates/tag/:id',
+    //         create: true
+    //       }
+    //     }
+    //   }
+    // },
     {
       use: `gridsome-plugin-netlify-cms`,
       options: {
