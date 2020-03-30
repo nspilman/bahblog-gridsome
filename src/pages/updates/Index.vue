@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <section id="homepage-content">
+    <!-- <section id="homepage-content">
     <article v-for="post in $page.posts.edges" :key="post.id" class="post">
       <header>
         <div class="title">
@@ -26,7 +26,7 @@
         </ul>
       </footer>
     </article>
-    </section>
+    </section> -->
   </Layout>
 </template>
 
