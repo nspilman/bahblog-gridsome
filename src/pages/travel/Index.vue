@@ -84,7 +84,7 @@ left:unset;
       width: auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 760px) {
   .g-image {
     max-width: 90vw;
     height:auto;
