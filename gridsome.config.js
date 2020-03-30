@@ -6,7 +6,7 @@
 
 module.exports = {
   templates: {
-    Tag: '/tags/:id'
+    TravelTag: '/tags/:id'
   },
   siteName: 'The blog of Claire and Nate',
   icon:'./src/img/globe.jpg',
