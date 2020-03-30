@@ -32,7 +32,7 @@
 
 <page-query>
 query UpdatePosts {
-  posts: allTravelPost {
+  posts: allUpdatePosts {
     edges {
       node {
         id

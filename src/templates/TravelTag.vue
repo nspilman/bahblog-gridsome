@@ -32,7 +32,7 @@
 
 <page-query>
 query Tag ($id: ID!) {
-  travelTag (id: $id) {
+  tag (id: $id) {
     title
     belongsTo {
       edges {
@@ -48,7 +48,7 @@ query Tag ($id: ID!) {
       }
     }
   }
-  allTravelTag {
+  allTag {
     edges {
       node {
         id
