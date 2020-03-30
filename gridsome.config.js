@@ -6,7 +6,7 @@
 
 module.exports = {
   templates: {
-    TravelTag: '/tags/:id'
+    Tag: '/tags/:id'
   },
   siteName: 'The blog of Claire and Nate',
   icon:'./src/img/globe.jpg',
@@ -15,12 +15,12 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         path: './blog/travel/*.md',
-        typeName: 'TravelPost',
+        typeName: 'Post',
         remark: {
         },
         refs: {
           tags:{
-            typeName: 'TravelTag',
+            typeName: 'Tag',
             route: 'travel/tag/:id',
             create: true
           }

@@ -1,7 +1,7 @@
 <template>
   <Layout>
-    <section id="homepage-content">
-    <article v-for="post in $page.posts.edges" :key="post.id" class="post">
+    <section id="posts-by-tag">
+    <article v-for="post in $page.tag.belongsTo.edges" :key="post.node.id" class="post">
       <header>
         <div class="title">
           <h2>
@@ -14,7 +14,7 @@
           <span class="published">author: {{post.node.author}}</span>
         </div>
       </header>
-      <a :href="post.node.path" class="image-featured">
+      <a :href="post.node.path" class="image featured">
         <g-image :src="post.node.image" />
       </a>
       <p v-html="post.node.excerpt"></p>
@@ -31,62 +31,65 @@
 </template>
 
 <page-query>
-query RecipePosts {
-  posts: allPost {
+query Tag ($id: ID!) {
+  tag (id: $id) {
+    title
+    belongsTo {
+      edges {
+        node {
+          ...on Post {
+            title
+            path
+            date (format: "D. MMMM YYYY")
+            content
+            image
+          }
+        }
+      }
+    }
+  }
+  allTag {
     edges {
       node {
         id
+        path
+      }
     }
   }
-  }
-  }
-  </page-query>
+}
+</page-query>
 
 <script>
-import formatDate from "../../utils/formattedDateString"
+import formatDate from "../utils/formattedDateString"
 export default {
-  metaInfo: {
-    title: "Recipes!"
+  components: {
+  },
+  created(){
+    console.log(this.$page.tag.title)
+  },
+  methods:{
+    title(){
+      return this.$page.tag.title
+    }
+  },
+  metaInfo(){
+    return {
+      title: this.title
+    }
+  },
+  computed:{
+    
   },
   methods:{
     formattedDateString(string){
-        return formatDate(string)
+      return formatDate(string)
     }
-}
+  }
 }
 </script>
 
 <style scoped>
-
-header{
-width:100%;
-left:unset;
-}
-
-#homepage-content{
-  margin-top:2em;
-}
-
-.image-featured{
-  display:flex;
-  justify-content: center;
-}
-
-.g-image {
-      max-height:660px;
-      width: auto;
-}
-
-@media only screen and (max-width: 600px) {
-  .g-image {
-    max-width: 90vw;
-    height:auto;
-  }
-}
-
-.post{
-  padding:1em;
-}
-
-
+    #posts-by-tag{
+        margin-top: 4em;
+    }
 </style>
