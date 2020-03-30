@@ -20,7 +20,7 @@ module.exports = {
         },
         refs: {
           tags:{
-            typeName: 'Tag',
+            typeName: 'TravelTag',
             route: 'travel/tag/:id',
             create: true
           }
@@ -36,7 +36,7 @@ module.exports = {
         },
         refs: {
           tags:{
-            typeName: 'Tag',
+            typeName: 'RecipeTag',
             route: 'recipes/tag/:id',
             create: true
           }
@@ -52,7 +52,7 @@ module.exports = {
         },
         refs: {
           tags:{
-            typeName: 'Tag',
+            typeName: 'UpdateTag',
             route: 'updates/tag/:id',
             create: true
           }
