@@ -62,11 +62,6 @@ query Tag ($id: ID!) {
 <script>
 import formatDate from "../utils/formattedDateString"
 export default {
-  components: {
-  },
-  created(){
-    console.log(this.$page.tag.title)
-  },
   methods:{
     title(){
       return this.$page.tag.title

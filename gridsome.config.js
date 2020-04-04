@@ -14,7 +14,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: './blog/travel/*.md',
+        path: './travel/*.md',
         typeName: 'Post',
         remark: {
         },
@@ -27,22 +27,22 @@ module.exports = {
         }
       }
     },
-    // {
-    //   use: '@gridsome/source-filesystem',
-    //   options: {
-    //     path: './blog/recipes/*.md',
-    //     typeName: 'RecipePosts',
-    //     remark: {
-    //     },
-    //     refs: {
-    //       tags:{
-    //         typeName: 'RecipeTag',
-    //         route: 'recipes/tag/:id',
-    //         create: true
-    //       }
-    //     }
-    //   }
-    // },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: './recipes/*.md',
+        typeName: 'Recipe',
+        remark: {
+        },
+        // refs: {
+        //   tags:{
+        //     typeName: 'RecipeTag',
+        //     route: 'recipes/tag/:id',
+        //     create: true
+        //   }
+        // }
+      }
+    },
     // {
     //   use: '@gridsome/source-filesystem',
     //   options: {

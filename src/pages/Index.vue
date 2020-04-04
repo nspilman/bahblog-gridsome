@@ -1,13 +1,11 @@
 <template>
   <Layout>
-    <article id="home" class="panel special">
-      <div class="image">
-        <img :src="mainImage" alt data-position="center center" id="main-image" />
-      </div>
+    <article id="main">
       <div class="content">
-        <div class="inner">
-          <nav id="nav">
-            <ul class="actions vertical special spinY">
+            <div class="inner">
+              <h2>Welcome to the Bahblog</h2>
+                        <nav id="nav">
+            <ul class="actions special spinY">
               <li>
                 <g-link class="button" to="/travel">Travel</g-link>
               </li>
@@ -19,26 +17,7 @@
               </li>
             </ul>
           </nav>
-          <ul class="icons">
-            <li>
-              <a href="https://github.com/nspilman" target="_blank" class="icon fa-github">
-                <span class="label">GitHub</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/natespilman/"
-                target="_blank"
-                class="icon fa-instagram"
-              >
-                <span class="label">Instagram</span>
-              </a>
-            </li>
-            <br />
-            <li>
-              <span class="label">nate.spilman@gmail.com</span>
-            </li>
-          </ul>
+        <img :src="mainImage" alt data-position="center center" id="home-image" />
         </div>
       </div>
     </article>
@@ -46,7 +25,7 @@
 </template>
 
 <script>
-import mainImage from "../img/theBabes.jpg";
+import mainImage from "../img/theBahbes.png";
 export default {
   metaInfo: {
     title: "The Bahblog | Claire and Nate's family blog"
@@ -61,11 +40,30 @@ export default {
 
 <style scoped>
 img {
-  padding: 3em;
-  background-color: white;
+  padding: 0 3em;
 }
 
 .home-links a {
   margin-right: 1rem;
+}
+
+#home-image{
+  max-height: 500px;
+  width:auto;
+}
+
+@media only screen and (max-width: 700px) {
+  #home-image{ 
+    height:auto;
+    max-width:100vw;
+    max-height: none
+  }
+}
+
+.inner{
+  text-align: center;
+  background-color: white;
+  padding-top:2em;
+
 }
 </style>
