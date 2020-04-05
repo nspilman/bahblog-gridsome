@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import mainImage from "../img/theBahbes.png";
+import mainImage from "../assets/img/theBahbes.png";
 export default {
   metaInfo: {
     title: "The Bahblog | Claire and Nate's family blog"

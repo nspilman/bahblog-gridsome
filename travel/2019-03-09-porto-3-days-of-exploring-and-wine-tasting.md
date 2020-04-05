@@ -7,7 +7,11 @@ description: 'Golly, Porto is beautiful'
 image: /img/landscapeholdinghands.jpg
 tags:
   - Porto
+  - Portugal
+
+
 draft: false
+
 ---
 
 You may have noticed we didn't do much posting in Porto. Pretty early on we decided it'd be best to do a single Porto post rather that one per day. Was it because there wasn't much to write about? Quite the opposite! Porto was by far the highlight of our time in Portugal, and we didn't want to take time away from the wonderful city. 

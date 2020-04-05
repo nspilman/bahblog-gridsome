@@ -9,6 +9,7 @@ description: >-
 image: /img/palaciorealoutside.jpg
 tags:
   - Madrid
+  - Spain
 draft: false
 ---
 After studying abroad in Sevilla, I wasn't sure what I'd think about Madrid. I was concerned it would be as more sterile version of the Spain I love - and fortunately I was wrong. It was simply a bigger and more abundant version :-) 

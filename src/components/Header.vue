@@ -14,9 +14,3 @@
 <script>
 export default {};
 </script>
-
-<style>
-#header{
-
-}
-</style>

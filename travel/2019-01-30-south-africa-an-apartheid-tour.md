@@ -6,7 +6,7 @@ author: Nate
 description: 'The Apartheid museum, delicious lunch, Soweto tour, slum walk, a calm evening'
 image: /img/jbBabesInSoweto.jpg
 tags:
-  - southafrica
+  - South Africa
   - traveling
   - apartheid
   - tour 

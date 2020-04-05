@@ -7,6 +7,8 @@ description: 'Lazy days of site seeing, another Flamenco show, and a friend reun
 image: /img/pdebahbes.jpg
 tags:
   - Sevilla
+  - Spain
+  
 draft: false
 ---
 

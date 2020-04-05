@@ -9,6 +9,9 @@ description: >-
 image: /img/dsc_0942.jpg
 tags:
   - Alcazar
+  - Spain
+  - Sevilla
+  
 draft: false
 ---
 On Tuesday we were treated to our own private tour of the Alcazar from Nate's good friend, Chari.  Nate met Chari when he was studying in Sevilla and they've kept in touch.  I was delighted to finally meet her as well!

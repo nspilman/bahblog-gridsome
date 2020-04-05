@@ -7,7 +7,7 @@ description: >-
     'A tour of one of Johannesburg's liveliest      neighborhood, with our tour guide Bright'
 image: /img/jbmbmain2.jpg
 tags:
-  - southafrica 
+  - South Africa 
   - johannesburg
 
 draft: false

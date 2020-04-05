@@ -7,6 +7,8 @@ description: 'Wednesday and Thursday in Sevilla, including a walking tour and th
 image: /img/dsc_0196.jpg
 tags:
   - Sevilla
+  - Spain
+  
 draft: false
 ---
 We arrived in Sevilla on Wednesday afternoon and it's currently Saturday evening as I write this (and it likely won't be published until Sunday).  Needless to say, we've kept ourselves busy by exploring this amazing city, drinking lots of wine and eating lots of tapas, and walking off all of the wine and tapas.

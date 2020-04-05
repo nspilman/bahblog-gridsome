@@ -7,6 +7,8 @@ description: A day spent admiring wonderful art.
 image: /img/dsc_0998.jpg
 tags:
   - Florence
+  - Italy
+
 draft: false
 ---
 Although we were just in Florence this past summer and went to most of the museums, we both really wanted to return to the Accademia and the Uffizi.  Our time was a bit more flexible this time, so we did online reservations as opposed to the Firenze Card.  

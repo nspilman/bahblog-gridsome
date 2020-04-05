@@ -7,6 +7,9 @@ description: The other things we did in Porto besides drink port and eat delicio
 image: /img/img_8526.jpg
 tags:
   - Porto
+  - Portugal
+
+
 draft: false
 ---
 I'm sure it looks like all we did in Porto was drink port, eat delicious food, and walk all over, but I did convince Nate to go to a couple historical places in between all of that.  There were three highlights - the train station, the cathedral, and the Stock Exchange Palace.

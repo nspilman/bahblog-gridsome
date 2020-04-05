@@ -7,6 +7,8 @@ description: A day spent exploring Lisbon by foot.
 image: /img/bahbesatviewpoint.jpg
 tags:
   - Lisbon
+  - Portugal
+
 draft: false
 ---
 

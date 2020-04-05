@@ -7,6 +7,8 @@ description: The bustling birthplace of Tuscan cuisine
 image: /img/bolognaTowerFromTop.jpg
 tags:
   - Bologna
+  - Italy
+
 draft: false
 ---
 Bologna

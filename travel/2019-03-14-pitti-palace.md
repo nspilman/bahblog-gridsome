@@ -7,6 +7,8 @@ description: A tour of the Pitti Palace.
 image: /img/dsc_0575.jpg
 tags:
   - Florence
+  - Italy
+
 draft: false
 ---
 

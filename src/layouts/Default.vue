@@ -29,7 +29,5 @@ export default {
 </script>
 
 <style>
-/* @import url('../styles/bootstrap-theme.css'); */
-/* @import url('../styles/bootstrap.css'); */
-@import url("../styles/main.css");
+@import url("../assets/styles/main.css");
 </style>

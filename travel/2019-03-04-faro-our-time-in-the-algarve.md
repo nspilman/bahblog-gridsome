@@ -7,6 +7,8 @@ description: Three days in Southern Portugal
 image: /img/farowalkingaround.jpg
 tags:
   - Faro
+  - Portugal
+
 draft: false
 ---
 We left Sevilla on Wednesday morning on bus to Faro for spend three days in the beautiful Algarve region of Southern Portugal. This is an area Claire had always wanted to explore, and we chose Faro for its central location to sites worth visiting along the southern coast. This is the only stop on our trip where we'd have a rental car and take driving day trips. 

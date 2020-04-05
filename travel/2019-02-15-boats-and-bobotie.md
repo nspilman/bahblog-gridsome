@@ -8,7 +8,10 @@ description: >-
   and a goodbye to Cape Town
 image: /img/frombuswelcome.jpg
 tags:
-  - Robben
+  - Robben Island
+  - Cape Town
+  - South Africa
+  
 draft: false
 ---
 We started Wednesday with a tour of Robben Island.  Robben Island is in Table Bay, about 4 miles off of Cape Town.  It's been used as prison for most of its history, though it was a leper colony at one point.  During Apartheid, it held Nelson Mandela, Kgalema Motlanthe, and Jacob Zuma at various points in time.  Today, you can take a boat from Cape Town and tour the island.

@@ -61,7 +61,7 @@
 </template>
 
 <script>
-import theBabes from "../img/theBabes.jpg";
+import theBabes from "../assets/img/theBabes.jpg";
 export default {
   data(){
     return {
