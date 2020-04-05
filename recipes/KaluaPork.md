@@ -2,6 +2,7 @@
 title:  "Hawaiian style Kalua Pork in the Slow Cooker"
 description:  "Tons of delicious tender pork with little effort required"
 tags: Meal
+date: 2020-04-04T16:07:32.332Z
 image: /img/kaluaPork.png
 preptime: 10 minutes
 cooktime: 16 hours
