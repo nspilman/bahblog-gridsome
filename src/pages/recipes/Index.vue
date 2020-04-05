@@ -57,7 +57,7 @@ query RecipePosts {
 import formatDate from "../../utils/formattedDateString"
 export default {
   metaInfo: {
-    title: "Recipes | The Bahblog"
+    title: "Recipes!"
   },
   methods:{
     formattedDateString(string){
