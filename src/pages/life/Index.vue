@@ -32,7 +32,7 @@
 
 <page-query>
 query UpdatePosts {
-  posts: allPost {
+  posts: allLife {
     edges {
       node {
         id
