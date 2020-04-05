@@ -8,10 +8,10 @@
             <h2>{{$page.post.title}}</h2>
             <p>{{$page.post.description}}</p>
           </div>
-          <!-- <div class="meta">
+          <div class="meta">
             <time class="published" datetime="2015-11-01">{{formattedDateString($page.post.date)}}</time>
             <span class="published">author: {{$page.post.author}}</span>
-          </div> -->
+          </div>
         </header>
         <span class="image featured">
           <g-image :src="$page.post.image" class="p5" />

@@ -10,7 +10,7 @@
             </h2>
             <p>{{post.description}}</p>
           </div>
-          <div v-if="post.date" class="meta">
+          <div class="meta">
             <time class="published" datetime="2015-11-01">{{formattedDateString(post.date)}}</time>
             <span href="#" class="author">
               <span class="name">{{post.author}}</span>
