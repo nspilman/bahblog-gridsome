@@ -36,3 +36,16 @@ collections:
       - {label: "Directions", name: "directions", widget: "list"}
       - {label: "Published", name: "published", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "life"
+    label: "Life"
+    folder: "life"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Featured Image", name: "image", widget: "image", default: "../img/globe.jpg"}
+      - {label: "Publish Date", name: "date", widget: "date"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Published", name: "published", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
