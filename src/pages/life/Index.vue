@@ -46,7 +46,7 @@ query UpdatePosts {
 import formatDate from "../../utils/formattedDateString"
 export default {
   metaInfo: {
-    title: "Life Updates"
+    title: "Life | The Bahblog"
   },
   methods:{
     formattedDateString(string){
