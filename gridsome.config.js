@@ -46,16 +46,16 @@ module.exports = {
     // {
     //   use: '@gridsome/source-filesystem',
     //   options: {
-    //     path: './life/*.md',
-    //     typeName: 'Life',
+    //     path: './blog/updates/*.md',
+    //     typeName: 'UpdatePosts',
     //     remark: {
     //     },
     //     refs: {
-    //       // tags:{
-    //       //   typeName: 'UpdateTag',
-    //       //   route: 'updates/tag/:id',
-    //       //   create: true
-    //       // }
+    //       tags:{
+    //         typeName: 'UpdateTag',
+    //         route: 'updates/tag/:id',
+    //         create: true
+    //       }
     //     }
     //   }
     // },
