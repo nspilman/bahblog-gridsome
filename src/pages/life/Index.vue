@@ -36,6 +36,16 @@ query UpdatePosts {
     edges {
       node {
         id
+        title
+        author
+        date
+        description
+        path
+        excerpt
+        image
+        tags {
+          title
+        }
     }
   }
   }
