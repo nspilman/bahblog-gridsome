@@ -54,7 +54,7 @@
 
 <page-query>
 query TravelPost ($path:String!){
-post:life(path:$path)
+post:post(path:$path)
        {
         title
         author

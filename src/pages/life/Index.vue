@@ -32,7 +32,7 @@
 
 <page-query>
 query UpdatePosts {
-  posts: allLife {
+  posts: allPost {
     edges {
       node {
         id
@@ -43,7 +43,9 @@ query UpdatePosts {
         path
         excerpt
         image
-        tags 
+        tags {
+          title
+        }
     }
   }
   }

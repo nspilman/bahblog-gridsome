@@ -43,22 +43,22 @@ module.exports = {
         // }
       }
     },
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: './life/*.md',
-        typeName: 'Life',
-        remark: {
-        },
-        refs: {
-          // tags:{
-          //   typeName: 'UpdateTag',
-          //   route: 'updates/tag/:id',
-          //   create: true
-          // }
-        }
-      }
-    },
+    // {
+    //   use: '@gridsome/source-filesystem',
+    //   options: {
+    //     path: './life/*.md',
+    //     typeName: 'Life',
+    //     remark: {
+    //     },
+    //     refs: {
+    //       // tags:{
+    //       //   typeName: 'UpdateTag',
+    //       //   route: 'updates/tag/:id',
+    //       //   create: true
+    //       // }
+    //     }
+    //   }
+    // },
     {
       use: `gridsome-plugin-netlify-cms`,
       options: {
