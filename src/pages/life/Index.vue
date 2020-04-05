@@ -31,8 +31,8 @@
 </template>
 
 <page-query>
-query LifePosts {
-  posts: allLife {
+query UpdatePosts {
+  posts: allPost {
     edges {
       node {
         id

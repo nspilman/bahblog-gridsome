@@ -14,7 +14,7 @@
 
 <page-query>
 query {
-  allTravel {
+  allPost {
     edges {
       node {
         tags {
