@@ -36,6 +36,14 @@ query LifePosts {
     edges {
       node {
         id
+        title
+        author
+        date
+        description
+        path
+        excerpt
+        image
+        tags 
     }
   }
   }
