@@ -9,6 +9,8 @@ description: >-
 image: /img/capeTown/fvCheers.jpg
 tags:
   - Stellenbosch
+  - South Africa
+  - Cape Town
 draft: false
 ---
 ## The tour begins

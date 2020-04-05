@@ -7,7 +7,7 @@ description: Four days in a magical land
 image: /img/landrover.jpg
 tags:
   - muweti
-  - southafrica
+  - South Africa
   - safari
   - animals
 

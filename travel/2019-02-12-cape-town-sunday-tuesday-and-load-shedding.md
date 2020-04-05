@@ -7,6 +7,8 @@ description: 'Lazy days around the Cape, with and without power'
 image: /img/img_3991.jpg
 tags:
   - Cape Town
+  - South Africa
+  
 draft: false
 ---
 Sunday was a bit of a lazy day.  We went for a morning run along the waterfront (we can run outside here!) and then grabbed a nice brunch at Jason Bakery.  We split a twice-baked raspberry-almond croissants.  I didn't know you could bake croissants twice, but whomever discovered this deserves an award.  

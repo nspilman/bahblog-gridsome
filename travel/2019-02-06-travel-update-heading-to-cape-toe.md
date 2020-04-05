@@ -8,8 +8,8 @@ image: /img/image.jpg
 tags:
   - airport
   - travel
-  - capetown
-  - southafrica
+  - Cape Town
+  - South Africa
 
 draft: false
 ---

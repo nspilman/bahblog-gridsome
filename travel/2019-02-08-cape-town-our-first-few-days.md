@@ -6,10 +6,10 @@ author: Claire
 description: 'Our action packed, sun kissed (and sunburnt) first few days in Cape Town'
 image: /img/img_3407.jpg
 tags:
-  - capetown
+  - Cape Town
   - beach
   - food
-  - southafrica 
+  - South Africa
 
 draft: false
 ---

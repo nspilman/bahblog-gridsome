@@ -7,7 +7,7 @@ description: >-
     'Elephants, Giraffes, Zebras and more!'
 image: /img/safari/gameDrive.jpg
 tags:
-  - southafrica
+  - South Africa
   - muweti
   - safari
   - animals 

@@ -7,8 +7,8 @@ description: Our favorite Penguin photos from Boulder Beach in Simonstown
 image: /img/penguinmain.jpg
 tags:
   - penguins
-  - southafrica 
-  - capetown
+  - South Africa
+  - Cape Town
 
 draft: false
 ---

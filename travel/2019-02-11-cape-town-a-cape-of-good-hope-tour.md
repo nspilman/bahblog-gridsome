@@ -8,8 +8,9 @@ description: >-
   Southwestern point of the African continent
 image: /img/coghsign.jpg
 tags:
-  - capeofgoodhope
-  - southafrica 
+  - Cape of Good Hope
+  - South Africa
+  - Cape Town
 
 draft: false
 ---
