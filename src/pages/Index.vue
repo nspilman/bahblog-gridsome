@@ -10,10 +10,10 @@
                 <g-link class="button" to="/travel">Travel</g-link>
               </li>
               <li>
-                <g-link class="button" to="/travel">Recipes</g-link>
+                <g-link class="button" to="/recipes">Recipes</g-link>
               </li>
               <li>
-                <g-link class="button" to="/travel">Life Updates</g-link>
+                <g-link class="button" to="/life">Life Updates</g-link>
               </li>
             </ul>
           </nav>
