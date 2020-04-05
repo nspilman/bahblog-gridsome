@@ -43,9 +43,7 @@ query UpdatePosts {
         path
         excerpt
         image
-        tags {
-          title
-        }
+        tags 
     }
   }
   }
