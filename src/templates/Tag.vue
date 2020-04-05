@@ -37,7 +37,7 @@ query Tag ($id: ID!) {
     belongsTo {
       edges {
         node {
-          ...on Post {
+          ...on Travel {
             title
             path
             date (format: "D. MMMM YYYY")

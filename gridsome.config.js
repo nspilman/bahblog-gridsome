@@ -15,7 +15,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         path: './travel/*.md',
-        typeName: 'Post',
+        typeName: 'Travel',
         remark: {
         },
         refs: {
@@ -34,31 +34,31 @@ module.exports = {
         typeName: 'Recipe',
         remark: {
         },
-        // refs: {
-        //   tags:{
-        //     typeName: 'RecipeTag',
-        //     route: 'recipes/tag/:id',
-        //     create: true
-        //   }
-        // }
+        refs: {
+          // tags:{
+          //   typeName: 'RecipeTag',
+          //   route: 'recipes/tag/:id',
+          //   create: true
+          // }
+        }
       }
     },
-    // {
-    //   use: '@gridsome/source-filesystem',
-    //   options: {
-    //     path: './blog/updates/*.md',
-    //     typeName: 'UpdatePosts',
-    //     remark: {
-    //     },
-    //     refs: {
-    //       tags:{
-    //         typeName: 'UpdateTag',
-    //         route: 'updates/tag/:id',
-    //         create: true
-    //       }
-    //     }
-    //   }
-    // },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: './life/*.md',
+        typeName: 'Life',
+        remark: {
+        },
+        refs: {
+          // tags:{
+          //   typeName: 'UpdateTag',
+          //   route: 'updates/tag/:id',
+          //   create: true
+          // }
+        }
+      }
+    },
     {
       use: `gridsome-plugin-netlify-cms`,
       options: {
