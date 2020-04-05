@@ -65,7 +65,7 @@ query TravelPosts {
 import formatDate from "../../utils/formattedDateString";
 export default {
   metaInfo: {
-    title: "Travel | The Bahblog"
+    title: "Travel!"
   },
   methods: {
     formattedDateString(string) {

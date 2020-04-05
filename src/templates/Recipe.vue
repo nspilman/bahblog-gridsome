@@ -84,8 +84,10 @@ recipe:recipe(path:$path)
   <script>
   import formatDate from "../utils/formattedDateString"
 export default {
-  metaInfo:{
+  metaInfo() {
+    return {
       title: this.$page.title
+    };
   },
   methods:{
     formattedDateString(string){
