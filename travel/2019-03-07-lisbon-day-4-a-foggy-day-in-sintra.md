@@ -9,7 +9,6 @@ tags:
   - Sintra
   - Portugal
 
-
 draft: false
 ---
 On Tuesday we to Sintra, Portugal, about 40 minutes outside of Lisbon by train. I'd been to Sintra six years prior. and it was my absolute favorite part of my time in Portugal during that trip. Sintra is a town built on a steep hill, with both an old Moorish castle, and the Pena Palace, the royal palace of the late 1800s. 

@@ -8,7 +8,7 @@ description: >-
   court
 image: /img/jbConstHill2.jpg
 tags:
-  - southafrica
+  - South Africa
   - johannesburg
 
 draft: false

@@ -9,7 +9,6 @@ tags:
   - Porto
   - Portugal
 
-
 draft: false
 
 ---
