@@ -1,12 +1,32 @@
 ---
-title: This is a placeholder
-date: 2020-04-06
+title: Recipes we know and love
+date: 2020-05-21T07:00:00.000Z
 author: The Holder of Place
-description: 'A placeholder post'
+description: A running list
 image: /img/img_1631.jpg
 tags:
-  - welcome
-  - new
+  - cooking
+published: false
 ---
-# This is a placeholder
-We will be with you with a life update shortly. 
+## Main Courses
+
+* Bulgogi 
+* Chicken Milanese
+* Beef /w Brocolli
+* Slow cooked porked shoulder
+* Chicken Chimichurri
+* Enchilladas 
+* Pasta + Bean Soup
+* Oven roasted chicken shwarma
+* Chicken Teryaki
+* Robillita
+* Rattatouli
+* Red Lentil soup 
+* Crispy Gnocci with Brussel Sprouts
+* Tuscan Farro soup
+*
+
+### Sides / Starters
+
+* Patatas Bravas
+* No Knead bread
